@@ -3,8 +3,9 @@ import HeroSection from './components/hero'
 import Navbar from './components/navbar'
 import Services from './components/services'
 import ContactAbout from './components/about'
+import Footer from './components/footer'
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <div>
@@ -12,6 +13,8 @@ function App() {
       <HeroSection />
       <Services />
       <ContactAbout />
+      <Footer />
+    
 
     </div>
   )
