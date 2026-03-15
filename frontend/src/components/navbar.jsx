@@ -92,9 +92,6 @@ const Navbar = () => {
                       onClick={() => setIsOpen(false)}
                       className="inline-block text-4xl md:text-6xl font-black text-white uppercase tracking-tighter transition-transform group-hover:translate-x-4 duration-300"
                     >
-                      <span className="text-[#fbb034] text-xs font-mono mr-4 opacity-0 group-hover:opacity-100 transition-opacity">
-                        0{index + 1}
-                      </span>
                       <span className="group-hover:text-[#fbb034] transition-colors italic">
                         {item.name}
                       </span>
