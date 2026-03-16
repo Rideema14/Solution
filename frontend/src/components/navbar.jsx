@@ -9,8 +9,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
-    { name: 'Home', href: '#' },
-    { name: 'About', href: '#' },
+    { name: 'Home', href: '/' },
+    { name: 'About', href: '/about' },
     { name: 'Services', href: '#' },
     { name: 'Training', href: '#' },
     { name: 'Career', href: '#' },
