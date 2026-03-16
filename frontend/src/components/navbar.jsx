@@ -11,10 +11,10 @@ const Navbar = () => {
   const menuItems = [
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
-    { name: 'Services', href: '#' },
-    { name: 'Training', href: '#' },
-    { name: 'Career', href: '#' },
-    { name: 'Contact Us', href: '#' },
+    { name: 'Services', href: '/services' },
+    { name: 'Training', href: '/courses' },
+    { name: 'Career', href: '/career' },
+    { name: 'Contact Us', href: '/contact' },
   ];
 
   return (

@@ -2,11 +2,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
 import HeroSection from './components/hero';
 import Services from './components/services';
-import ContactAbout from './components/about'; // This is your home-page about snippet
+import ContactAbout from './components/about'; 
 import FAQSection from './components/faq';
 import Footer from './components/footer';
 import ReviewSection from './components/review';
-import AboutUsPage from './pages/About_us'; // Your full-page creative About & Team
+import AboutUsPage from './pages/About_us'; 
+import CoursesPage from './pages/Courses';
+import Service from './pages/Service';
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
 
           {/* CREATIVE FULL ABOUT & TEAM PAGE */}
           <Route path="/about" element={<AboutUsPage />} />
+          <Route path="/courses" element={<CoursesPage />} />
+          <Route path="/services" element={<Service />} />
         </Routes>
 
         <Footer />
